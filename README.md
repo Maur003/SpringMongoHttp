@@ -2,11 +2,11 @@
   Project initial URL
   - http://localhost:8080/film/
 
-### GET ### /getAllFilms 
+### GET /getAllFilms 
 
 - Retrieves data from the server. It's safe and idempotent, meaning it should not modify server state and multiple identical requests should have the same effect as a single request.
 
-### POST ### /createFilm  
+### POST /createFilm  
 
 - Submits data to the server to create a new resource. It's not idempotent, meaning multiple identical requests may have different effects each time.
 ```bash
@@ -18,7 +18,7 @@
 }
 ```
 
-### PUT ### /updateFilm
+### PUT /updateFilm
 
 - Updates an existing resource on the server. It's idempotent, meaning multiple identical requests will have the same effect as a single request.
 ```bash
@@ -31,7 +31,7 @@
 }
 ```
 
-### PATCH ### /patchFilm/{id}
+### PATCH /patchFilm/{id}
 
 - Partially updates an existing resource. It's generally used when you want to apply a partial update to a resource.
 ```bash
@@ -44,12 +44,12 @@
 }
 ```
 
-### DELETE ### /deleteFilm/{id}
+### DELETE /deleteFilm/{id}
 
 - Removes a resource from the server.
   
 
-### HEAD ### /getFilmHeaders/{id}
+### HEAD /getFilmHeaders/{id}
 
 - Retrieves the headers of a resource without the body. It's typically used to check for the existence of a resource or to obtain metadata about a resource.
 
