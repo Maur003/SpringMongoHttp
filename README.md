@@ -1,5 +1,5 @@
 # Spring & MongoDB Rest API (Http verbs) 
-  Project initial URL
+  Project URL
   - http://localhost:8080/film/
 
 ### GET /getAllFilms 
@@ -54,7 +54,7 @@
 - Retrieves the headers of a resource without the body. It's typically used to check for the existence of a resource or to obtain metadata about a resource.
 
 
-### OPTIONS ### /options
+### OPTIONS /options
 
 - Returns the HTTP methods that the server supports for a specified URL. It's often used to determine the capabilities of the server at a given URL.
 
